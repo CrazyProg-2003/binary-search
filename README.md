@@ -1,1 +1,1 @@
-читаю адитью бхаргаву, повторяю и модифицирую примеры из книги на джаваскрипте
+rewrite examples from grok algorithms into TypeScript
