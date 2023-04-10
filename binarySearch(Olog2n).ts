@@ -36,7 +36,7 @@ interface SearchElementFn {
 // algorithm
 const binarySearch: SearchElementFn = (arr, item) => {
     let low: number = 0
-    let high: number = arr[arr.length - 1]
+    let high: number = arr.at(-1)
 
     while (low <= high) {
         const mid: number = Math.floor((low + high) / 2)
